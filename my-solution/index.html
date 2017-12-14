@@ -3,16 +3,18 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head> 
 	<body>
-		<div id="cat">
-			<h1>Number of clicks:</h1>
-			<h2 id="number">0</h2>
-			<img src="cat.jpg" width="300px" height="300px">
+		<div id="cat1">
+			<h1 id="name1"></h1> 
+			<h2>Number of clicks:</h2>
+			<h2 id="number1">0</h2>
+			<img src="cat1.jpg" width="300px" height="300px">
 		</div>
-		<script>
-			$('#cat').click(function() {
-  				var num = parseInt($.trim($('#number').html()));
-				$('#number').html(++num)
-			});
-		</script>
+		<div id="cat2">
+			<h1 id="name2"></h1> 
+			<h2>Number of clicks:</h2>
+			<h2 id="number2">0</h2>
+			<img src="cat2.jpg" width="300px" height="300px">
+		</div>
+		<script src="jquery-foot.js"></script>
 	</body>
 </html>
